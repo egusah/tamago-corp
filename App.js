@@ -13,8 +13,6 @@ import { Focus } from './src/features/Focus';
 import { Timer } from './src/features/Timer';
 import { FocusHistory } from './src/features/FocusHistory';
 
-this is some garbage
-
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState();
   const [history, setHistory] = useState([]);
